@@ -1,0 +1,30 @@
+{
+  "seccion": "Seguridad",
+  "responsable": "Cesar Arroyo",
+  "elementos": [
+    {
+      "id": 1,
+      "nombre": "Restriccion de acceso",
+      "tipo": "contraseña",
+      "estado": "activo"
+    },
+    {
+      "id": 2,
+      "nombre": "Cortafuegos principal",
+      "tipo": "Cortafuegos",
+      "estado": "activo"
+    },
+    {
+      "id": 3,
+      "nombre": "Antivirus principal",
+      "tipo": "Antivirus",
+      "estado": "activo"
+    },
+    {
+      "id": 4,
+      "nombre": "lector de ips",
+      "tipo": "detección",
+      "estado": "en pruebas"
+    }
+  ]
+}

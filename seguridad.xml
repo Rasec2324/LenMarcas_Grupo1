@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sección Seguridad  -->
+<inventario xmlns="https://HotelCompania.com" xmlns:aut="https://lmsgi.example/autoria" seccion="Seguridad">
+  <aut:firma> Rasec
+    <aut:nombre>Cesar Arroyo</aut:nombre>
+    <aut:fecha>2026-11-10</aut:fecha>
+  </aut:firma>
+  <elemento id="1">
+    <nombre>Restriccion de acceso</nombre>
+    <tipo>control de acceso</tipo>
+    <estado>activo</estado>
+  </elemento>
+  <elemento id="2">
+    <nombre>Cortafuegos principal</nombre>
+    <tipo>cortafuegos</tipo>
+    <estado>activo</estado>
+  </elemento>
+  <elemento id="3">
+    <nombre>Antivirus principal</nombre>
+    <tipo>Antivirus</tipo>
+    <estado>activo</estado>
+  </elemento>
+  <elemento id="4">
+    <nombre>lector de ips</nombre>
+    <tipo>detección</tipo>
+    <estado>en pruebas</estado>
+  </elemento>
+</inventario>
+
+
