@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sección Red · Aarón De la Iglesia Verdejo -->
+<inventario xmlns="https://HotelCompañia.com/inventario"
+            xmlns:aut="https://HotelCompañia.com/autoria"
+            seccion="Red">
+  <aut:firma>
+    <aut:nombre>Aarón De la Iglesia Verdejo</aut:nombre>
+    <aut:fecha>10-11-2026</aut:fecha>
+  </aut:firma>
+  <equipo id="1">
+    <nombre>Switch planta baja</nombre>
+    <ubicacion>Planta baja</ubicacion>
+    <estado>En mantenimiento</estado>
+  </equipo>
+  <equipo id="2">
+    <nombre>Router principal</nombre>
+    <ubicacion>Sala de ordenadores</ubicacion>
+    <estado>Operativo</estado>
+  </equipo>
+  <equipo id="3">
+    <nombre>Punto de acceso biblioteca</nombre>
+    <ubicacion>Biblioteca</ubicacion>
+    <estado>Caido</estado>
+  </equipo>
+  <equipo id="4">
+    <nombre>Switch 2ª planta</nombre>
+    <ubicacion>Segunda planta</ubicacion>
+    <estado>Operativo</estado>
+  </equipo>
+</inventario>

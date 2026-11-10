@@ -1,0 +1,30 @@
+{
+  "seccion": "Red",
+  "responsable": "Aarón De la Iglesia",
+  "equipos": [
+    {
+      "id": 1,
+      "nombre": "Red 1",
+      "ubicacion": "Planta 1",
+      "estado": "operativo"
+    },
+    {
+      "id": 2,
+      "nombre": "Red 2",
+      "ubicacion": "Planta 2",
+      "estado": "operativo"
+    },
+    {
+      "id": 3,
+      "nombre": "Red 3",
+      "ubicacion": "Planta 3",
+      "estado": "caido"
+    },
+    {
+      "id": 4,
+      "nombre": "Red 4",
+      "ubicacion": "Planta baja",
+      "estado": "mantenimiento"
+    }
+  ]
+}
