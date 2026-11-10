@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sección Ejecución del Programa copias de seguridad · Bryandel -->
+<inventario xmlns="https://HotelCompania.com/inventario"
+            xmlns:aut="https://lmsgi.example/autoria"
+            seccion="Ejecucion del Programa Compra">
+  <aut:firma>
+    <aut:nombre>Bryandel</aut:nombre>
+    <aut:fecha>2026-11-10</aut:fecha>
+  </aut:firma>
+  <copia id="1">
+    <contenido>Datos iniciales del Teclado</contenido>
+    <frecuencia>Inicio de ejecucion</frecuencia>
+    <destino>Consola de salida</destino>
+  </copia>
+  <copia id="2">
+    <contenido>Calculo de subtotal e IVA</contenido>
+    <frecuencia>Proceso interno</frecuencia>
+    <destino>Memoria de variables</destino>
+  </copia>
+  <copia id="3">
+    <contenido>Actualizacion a raton y nuevos precios</contenido>
+    <frecuencia>Modificacion de variables</frecuencia>
+    <destino>Memoria de variables</destino>
+  </copia>
+  <copia id="4">
+    <contenido>Calculo del totalDescuento final</contenido>
+    <frecuencia>Cierre del programa</frecuencia>
+    <destino>Consola de salida</destino>
+  </copia>
+</inventario>
