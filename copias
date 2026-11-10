@@ -1,0 +1,30 @@
+{
+  "seccion": "Gestión de Compras",
+  "responsable": "Bryandel",
+  "copias": [
+    {
+      "id": 1,
+      "contenido": "Datos del Teclado inicial",
+      "frecuencia": "Ejecución única",
+      "destino": "Consola de salida (Antes)"
+    },
+    {
+      "id": 2,
+      "contenido": "Cálculo de subtotal e Iva",
+      "frecuencia": "Por cada producto",
+      "destino": "Memoria RAM (Variables)"
+    },
+    {
+      "id": 3,
+      "contenido": "Modificación de unidades y precio",
+      "frecuencia": "Ejecución de actualización",
+      "destino": "Consola de salida (Después)"
+    },
+    {
+      "id": 4,
+      "contenido": "Cálculo de totalDescuento",
+      "frecuencia": "Cierre de operación",
+      "destino": "Resultado Final"
+    }
+  ]
+}
