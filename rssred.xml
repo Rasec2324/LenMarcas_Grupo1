@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Red · Aarón De la Iglesia -->
+<rss version="2.0">
+ <channel>
+ <title>Hotelcompania · Red</title>
+ <link>https://hotelcompania.es/red</link>
+ <description>Novedades de la sección red</description>
+ <language>es</language>
+ <item>
+ <title>Cambio de ubicación</title>
+ <link>https://hotelcompania.es/red/1</link>
+ <description>Cambio de ubicación de equipo P001</description>
+ <pubDate>Thu, 03 Dec 2026 09:00:00 +0100</pubDate>
+ </item>
+  <item>
+ <title>Nuevo equipo</title>
+ <link>https://hotelcompania.es/red/2</link>
+ <description>Nuevo equipo, falta configuración</description>
+ <pubDate>Thu, 03 Dec 2026 09:00:00 +0100</pubDate>
+ </item>
+  <item>
+ <title>Fallo equipo</title>
+ <link>https://hotelcompania.es/red/3</link>
+ <description>Fallo en equipo P015</description>
+ <pubDate>Thu, 03 Dec 2026 09:00:00 +0100</pubDate>
+ </item>
+ </channel>
+</rss>
