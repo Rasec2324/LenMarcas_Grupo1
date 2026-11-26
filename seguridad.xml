@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Canal RSS de Seguridad ... Cesar Arroyo -->
-<rss version="2.0">
- <channel>
- <title>Hotel Compania</title>
- <link>https://Hotelcompania.com/Seguridad</link>
- <description>Novedades de la seguridad contra nuevas formas de posibles ataques</description>
- <language>es</language>
- <item>
- <title>Aviso de seguridad</title>
- <link>https://Hotelcompania.com/Seguridad/1</link>
- <description>Implementamos la opcion de ver las ips que pueden estar conectadas a la misma cuenta y mandamos un aviso si hay mas de dos</description>
- <pubDate>Thu, 26 Nov 2026 10:35:25 +0100</pubDate>
- </item>
- <item>
- <title>Aviso de seguridad ante caducidad de antivirus</title>
- <link>https://Hotelcompania.com/Seguridad/2</link>
- <description>Implementamos la opcion de ver el tiempo que le queda a tu licencia de antivirus</description>
- <pubDate>Thu, 26 Nov 2026 10:35:25 +0100</pubDate>
- </item>
- <item>
- <title>limite de usuarios</title>
- <link>https://Hotelcompania.com/Seguridad/3</link>
- <description>Implementamos la opcion de no poder tener la opcion de integrar cualquier otro equipo a tu cuenta</description>
- <pubDate>Thu, 26 Nov 2026 10:35:25 +0100</pubDate>
- </item>
- </channel>
-</rss>
+<!-- Sección Seguridad  -->
+<inventario xmlns="https://HotelCompania.com" xmlns:aut="https://lmsgi.example/autoria" seccion="Seguridad">
+  <aut:firma> Rasec
+    <aut:nombre>Cesar Arroyo</aut:nombre>
+    <aut:fecha>2026-11-10</aut:fecha>
+  </aut:firma>
+  <elemento id="1">
+    <nombre>Restriccion de acceso</nombre>
+    <tipo>control de acceso</tipo>
+    <estado>activo</estado>
+  </elemento>
+  <elemento id="2">
+    <nombre>Cortafuegos principal</nombre>
+    <tipo>cortafuegos</tipo>
+    <estado>activo</estado>
+  </elemento>
+  <elemento id="3">
+    <nombre>Antivirus principal</nombre>
+    <tipo>Antivirus</tipo>
+    <estado>activo</estado>
+  </elemento>
+  <elemento id="4">
+    <nombre>lector de ips</nombre>
+    <tipo>detección</tipo>
+    <estado>en pruebas</estado>
+  </elemento>
+</inventario>
+
+
